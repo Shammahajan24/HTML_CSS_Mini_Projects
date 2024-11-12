@@ -1,0 +1,77 @@
+body{ 
+    background-color: #FEF9F2;
+}
+#img{
+    width: 75px;
+    height: 25px;
+    margin-top: 10px;
+}
+.box{
+    padding-top: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar{
+    border: 1px solid #FEF9F2;
+    display: flex;
+    margin-left: 150px;
+    
+    flex-wrap: wrap;
+    gap: 70px;
+
+}
+.donibajuni{
+    display: flex;
+    margin-left: 150px;
+    margin-top:150px;
+    
+}
+#one{
+    margin-right: 150px;
+    margin-top: 100px;
+    font-family: "Open Sans", sans-serif;
+
+}
+p{
+    font-size: 15px;
+    color: #61677A;
+}
+h1{
+    font-size: 50px;
+}
+.image{
+    height: 250px;
+    /* margin-bottom: 80px; */
+
+}
+
+.three{
+    width: 420px;
+    height:200px ;
+}
+main{
+    padding-bottom: 30px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #0f8463;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .btn:hover {
+    background-color: #17ba17;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  .btn:active {
+    background-color: #17ba17;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
