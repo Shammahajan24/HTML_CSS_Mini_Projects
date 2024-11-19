@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav ul li:first-child {
-  color: green;
+  color: #4dc784;
 }
 
 li {
@@ -33,36 +33,87 @@ li {
 /*         Main-LeftSection                          */
 .stethoscope{
   position: relative;
-  top: 0;
-  bottom:0;
   width: 600px;
   height: 600px;
-  left:20%;
-  margin-top: 10px;
+  left:40%;
+  
 }
 .textoverlay{
   position:absolute;
-  top: 30%;
+  top: 10%;
+
 }
 h1{
-  font-size: 50px;
-  
+  font-size: 90px;
+  font-family: "Roboto", sans-serif;
+} 
+p{
+  font-size: 23px;
+  font-family: "Roboto", sans-serif;
+  color: #9a9998;
 }
 .leftsection{
   position: relative;
   margin-top: 10px;
-  margin-right: 20px;
+  margin-left: 60px;
 }
 .topangle{
   position: absolute;
-  top: 10%;
+  top: 5%;
+}
+.bottomangle{
+  position: absolute;
+  left:83%;
+  top: 80%;
 }
 .mouse{
   position: absolute;
-  bottom: 20%;
+  bottom: 7%;
+  left: 90%;
+  
 }
 button{
   position: absolute;
-  left: 10%;
-  bottom: 20%;
+  left: 0;
+  bottom: 10%;
+  border-radius: 80px;
+  height: 70px;
+  width: 350px; 
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: #4dc784;
+  color: white;
+  border: none;
 }
+/*  Main -Rightsection */
+.rightsection{
+   position:relative;
+   top:-2%
+   
+   
+}
+.image{
+  position: absolute;
+}
+.grrenbox{
+  height: 430px;
+  margin-top: 120px;
+  left: 28%;
+  
+}
+.yellowbox{
+  height: 380px;
+  left: 37.5%;
+  margin-top: 150px;
+  
+}
+.doctor{
+  height: 600px;
+  left: 25%;
+  margin-bottom: 20px;
+}
+/* Main */
+main{
+  display: grid;
+  grid-template-columns: 60% 40%;
+} 
