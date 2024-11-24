@@ -131,7 +131,7 @@ h1 {
     box-shadow: 0 0 0 2px;
 }
 
-button {
+.submit{
     width: 100%;
     padding: 0.75rem;
     background-color: #4CC9FE; /* Primary blue color for button */
@@ -142,7 +142,26 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-button:hover{
+.submit:hover{
+    background: transparent;
+    border: 2px solid #4CC9FE;
+    cursor: pointer;
+    color: #4CC9FE;
+}
+.back a button{
+    background: #4CC9FE;
+    color: #1f242d;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 26px;
+  
+    
+}
+.back a button:hover{
     background: transparent;
     border: 2px solid #4CC9FE;
     cursor: pointer;

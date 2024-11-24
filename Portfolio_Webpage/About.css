@@ -36,6 +36,9 @@
     margin-bottom: 15px;
 
 }
+.about-text h1 span{
+    color: #4CC9FE;
+}
 .about-text h5{
     color: antiquewhite;
     font-size: 25px;
@@ -66,10 +69,14 @@ button{
     padding: 13px 30px;
     border-radius: 30px;
     transition: .4s;
+    
 }
 button:hover{
     background: transparent;
     border: 2px solid #4CC9FE;
     cursor: pointer;
     color: #4CC9FE;
+}
+.side{
+    margin-left: 10px;
 }
