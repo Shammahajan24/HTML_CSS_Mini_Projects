@@ -198,7 +198,7 @@ a{
 } 
 .home-img .img-box .img-item img{
     position: absolute;
-    top: -8px;
+    top: 8px;
     display: block;
     width: 85%;
     object-fit: cover;

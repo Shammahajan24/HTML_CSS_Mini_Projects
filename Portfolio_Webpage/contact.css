@@ -27,10 +27,13 @@
 .contact .content h2{
     font-size: 36px;
     font-weight: 500;
-    color: #4CC9FE;
+    color: #fff;
 
 }
-.contact .contact p{
+.contact .content h2 span{
+    color: #4CC9FE;
+}
+.contact .content p{
     font-weight: 300;
     color: #fff;
 }
@@ -134,8 +137,14 @@ button {
     background-color: #4CC9FE; /* Primary blue color for button */
     border: none;
     border-radius: 4px;
-    color: #ffffff; /* White text on button */
+    color: #1f242d; /* White text on button */
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #4CC9FE;
+    cursor: pointer;
+    color: #4CC9FE;
 }
