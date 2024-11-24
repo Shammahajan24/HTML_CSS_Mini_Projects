@@ -74,12 +74,19 @@ a{
 
 }
 .home-info h1{
-    font-size: 57px;
+   
+    color: antiquewhite;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
 }
 .home-info h3{
     display: inline-block;
-    font-size: 29px;
-    margin-top: 0px;
+    color: antiquewhite;
+    font-size: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 .home-info h3 span{
     position: relative;
@@ -119,8 +126,11 @@ a{
 
 
 .home-info p{
-    font-size: 16px;
-    margin: 10px 0 25px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
 .home-info .btn-sci{
     display: flex;
@@ -171,28 +181,8 @@ a{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-
-}
-.home-img .img-box::before,
-.home-img .img-box::after{
-    content: '';
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    background: conic-gradient(transparent, transparent,transparent,#4CC9FE);
-    transform: rotate(0deg);   
-    animation: rotate-border 10s linear infinite;
-}
-.home-img .img-box::after{
-    animation-delay: -5s;
 }
 
-@keyframes rotate-border {
-    100%{
-        transform: rotate(360deg);   
-    }
-
-}
 .home-img .img-box .img-item{
     position: relative;
     width: 100%;
