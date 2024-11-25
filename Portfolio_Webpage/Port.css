@@ -13,7 +13,7 @@ body{
 
 }
 .Head{
-   margin-top: 1%;
+   margin-top: 1.5%;
    /* text-align: center; */
    color: #FBF8EF;
    display: flex;
@@ -91,8 +91,8 @@ body{
      width: 100%;
      height: 100%;
      background: #1f242d;
-     animation: show-right 4s forwards;
-     
+     animation: show-right 5s forwards;
+     /* animation-delay:calc(.3s * var(--i)); */
 
 }
 
